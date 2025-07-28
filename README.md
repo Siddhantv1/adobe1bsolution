@@ -1,6 +1,6 @@
-# Persona-Driven Document Intelligence System
+# Round 1B : Persona-Driven Document Intelligence
 
-This project is an advanced pipeline designed to analyze a collection of PDF documents and extract the most relevant sections based on a specific persona and a "job-to-be-done" (JTBD). It uses a semantic language model with contrastive scoring to understand nuanced requirements and filter out irrelevant content.
+An advanced pipeline designed to analyze a collection of PDF documents and extract the most relevant sections based on a specific persona and a "job-to-be-done" (JTBD). It uses a semantic language model with contrastive scoring to understand nuanced requirements and filter out irrelevant content.
 
 ---
 
@@ -22,7 +22,6 @@ For the application to run correctly, your project must follow this directory st
 .
 ├── PDF/
 │   ├── challenge1b_input.json
-│   └── ... (your PDF files)
 ├── models/
 │   └── e5-small-v2/
 │       ├── ... (model files)
@@ -31,6 +30,9 @@ For the application to run correctly, your project must follow this directory st
 │   ├── document_processor.py
 │   └── persona_analyzer.py
 ├── app/
+│   └── input/
+│       ├── challenge1b_input.json
+        └── (input files)
 │   └── output/
 │       └── (generated files will appear here)
 ├── main.py
