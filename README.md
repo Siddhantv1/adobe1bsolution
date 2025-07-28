@@ -65,8 +65,8 @@ This project requires the `intfloat/e5-small-v2` model.
 
 ### Step 3: Add Input Files
 
-1.  Place all the PDF documents you want to analyze inside the `PDF/` directory.
-2.  Place your configuration file (e.g., `challenge1b_input.json`) inside the `PDF/` directory. This file tells the system which documents to process and defines the persona and JTBD.
+1.  Place all the PDF documents you want to analyze inside the `app/input/` directory.
+2.  Place your configuration file (e.g., `challenge1b_input.json`) inside the `app/input/` directory.
 
 ### Step 4: Install Dependencies
 
