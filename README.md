@@ -19,9 +19,7 @@ An advanced pipeline designed to analyze a collection of PDF documents and extra
 For the application to run correctly, your project must follow this directory structure:
 
 ```
-.
-├── PDF/
-│   ├── challenge1b_input.json
+root/
 ├── models/
 │   └── e5-small-v2/
 │       ├── ... (model files)
