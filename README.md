@@ -109,7 +109,6 @@ Using Docker ensures that the environment is consistent and all dependencies are
     ```bash
     docker run --rm -v "$(pwd)/app/output:/app/app/output" doc-analyzer
     ```
-    *(Note for Windows PowerShell users: Replace `$(pwd)` with `${PWD}`)*
 
 ---
 
