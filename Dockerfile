@@ -1,5 +1,5 @@
 # Use a slim and stable Python base image
-FROM python:3.9-slim
+FROM --platform=linux/amd64 python:3.10
 
 # Set the working directory 
 WORKDIR /app
